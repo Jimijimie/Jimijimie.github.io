@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimwell Rebolllos | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">Jimwell Rebolllos</div>
+            <ul class="nav-links">
+                <li><a href="#cover">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="cover" class="cover-section">
+            <div class="cover-bg-anim"></div>
+            <div class="cover-content">
+                <div class="profile-pic-container">
+                    <img src="PHOTO.png" alt="Jimwell Rebolllos Photo" class="profile-pic">
+                </div>
+                <div class="intro">
+                    <h1 class="name">Jimwell Rebolllos</h1>
+                    <p class="tagline">Computer Science Graduate | Front-End Enthusiast</p>
+                    <p class="location"><i class="fa-solid fa-location-dot"></i> Sinunoc, Zamboanga City, Philippines</p>
+                </div>
+            </div>
+            <div class="scroll-indicator"><i class="fa-solid fa-chevron-down"></i></div>
+        </section>
+        <section id="about" class="wide-section about-section">
+            <h2>About Me</h2>
+            <p class="about-text">
+                A passionate and adaptive Computer Science graduate with an interest in front-end development and UI/UX design. Knowledgeable in using HTML, CSS, JavaScript, Figma, and Illustrator to create simple and functional interfaces. Gained experience through academic projects and collaboration with peers. Always open to learning new skills and technologies, with a practical mindset and strong attention to detail in design and development.
+            </p>
+            <div class="about-details">
+                <div class="about-block">
+                    <h3>Education</h3>
+                    <ul class="education-list">
+                        <li><strong>Bachelor of Science in Computer Science</strong><br>Western Mindanao State University | Aug 2021 – May 2026</li>
+                        <li><strong>Senior High School – STEM (with Honors)</strong><br>Zamboanga City High School | 2020 – 2022</li>
+                        <li><strong>Junior High School (with Honors)</strong><br>Zamboanga City High School | 2015 – 2019</li>
+                    </ul>
+                </div>
+                <div class="about-block">
+                    <h3>Technical Skills</h3>
+                    <ul class="skills-list">
+                        <li><i class="fa-brands fa-html5"></i> HTML/CSS</li>
+                        <li><i class="fa-brands fa-js"></i> JavaScript</li>
+                        <li><i class="fa-solid fa-database"></i> MySQL</li>
+                        <li><i class="fa-brands fa-figma"></i> Figma</li>
+                        <li><i class="fa-solid fa-pen-nib"></i> Illustrator</li>
+                        <li><i class="fa-solid fa-laptop-code"></i> UI/UX Design</li>
+                        <li><i class="fa-solid fa-screwdriver-wrench"></i> Computer Servicing</li>
+                        <li><i class="fa-solid fa-headset"></i> Customer Service</li>
+                        <li><i class="fa-solid fa-code"></i> Visual Studio Code</li>
+                        <li><i class="fa-solid fa-file-word"></i> Microsoft Office Suite</li>
+                    </ul>
+                </div>
+                <div class="about-block">
+                    <h3>Affiliations</h3>
+                    <ul class="affiliations-list">
+                        <li><strong>Google Developer Student Club (Crimson)</strong> – Member | 2021 – 2025</li>
+                        <li><strong>College of Computing Studies (Reboot)</strong> – Member | 2022 – 2025</li>
+                        <li><strong>WMSU Crimson Beat</strong> – Assistant Project Manager | 2024 – 2026</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="wide-section projects-section">
+            <h2>Projects</h2>
+            <div class="projects-list">
+                <div class="project-card">
+                    <div class="project-icon"><i class="fa-solid fa-code"></i></div>
+                    <div class="project-info">
+                        <h3>Academic Projects</h3>
+                        <p>Developed various web interfaces and UI/UX prototypes as part of coursework and group collaborations.</p>
+                    </div>
+                </div>
+                <!-- Add more project cards here -->
+            </div>
+        </section>
+        <section id="contact" class="wide-section contact-section">
+            <h2>Contact</h2>
+            <p class="get-in-touch">Get in touch by filling out the form below:</p>
+            <form class="contact-form" autocomplete="off">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <ul class="contact-list">
+                <li><i class="fa-solid fa-envelope"></i> rebollosjimwel@gmail.com</li>
+                <li><i class="fa-solid fa-phone"></i> +63 975 123 8664</li>
+            </ul>
+            <div class="contact-social">
+                <a href="https://www.facebook.com/jimwell.rebollos" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/jimwell-rebollos-b951ab36b/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <span>&copy; 2024 Jimwell Rebolllos. All rights reserved.</span>
+        </div>
+    </footer>
+</body>
+</html>
